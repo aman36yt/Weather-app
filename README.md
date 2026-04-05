@@ -37,8 +37,7 @@
 
 ## 🔌 API Used
 
-🌐 https://api.openweathermap.org
-*(Replace with your actual API if different)*
+🌐 "https://api.weatherapi.com/v1/current.json?key=95923165069547c782864718260504&q="
 
 ---
 
@@ -58,8 +57,8 @@
 
 1. Clone the repository
 
-```bash id="a1xtsf"
-git clone https://github.com/your-username/weather-app.git
+```
+git clone https://github.com/aman36yt/weather-app.git
 ```
 
 2. Open the folder
