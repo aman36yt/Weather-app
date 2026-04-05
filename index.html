@@ -11,20 +11,22 @@
      <div class="container">
         <h1>WEATHER APP</h1>
         <div class="input">
-            <input type="text">
+            <input type="text" id="input" class="input">
+            <label for="input"><button class="btn" type="submit">Search</button></label>
         </div>
         <div class="content">
             <h2>CITY : Name</h2>
             <ul>
-                <li>Temperature : 45*C</li>
-                <li>HUMIDITY : 55%</li>
-                <li>latitude : 00</li>
-                <li>longitude : 00</li>
-                <li>Country : India</li>
-                <li>Time : </li>
+                <li><div class="temp">Temperature : 45*C</div></li>
+                <li><div class="humi">HUMIDITY : 55</div></li>
+                <li><div class="lat">latitude : 00</div></li>
+                <li><div class="lon">longitude : 00</div></li>
+                <li><div class="con">Region : India</div></li>
+                <li><div class="time">Time : 00</div></li>
             </ul>
         </div>
      </div>
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
      <script src="script.js"></script>
 </body>
 </html>
