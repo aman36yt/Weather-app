@@ -1,6 +1,7 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightgreen;
+    background:url("https://images.indianexpress.com/2026/03/weather_20260331062031.jpg?w=1200");
+    background-size: cover;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -12,7 +13,7 @@ body{
 .container{
     height: 500px;
     width: 400px;
-    background-color: black;
+    background-color:rgba(0,0,0,0.5);
     border-radius:20px;
     color: azure;
     display: flex;
@@ -20,6 +21,12 @@ body{
     align-items:center;
     flex-direction: column;
     font-size:24px;
+    overflow: hidden;
+    cursor:default;
+    transition: box-shadow ease-in-out 1s;
+}
+.container:hover{
+    box-shadow: 5px 5px 10px lightgreen;
 }
 .inputCon{
     height:30px;
@@ -56,7 +63,26 @@ body{
     color: white;
     background-color:rgba(255,255,255,0.15);
     font-size:25px;
+    cursor:text;
 }
+
 .input:focus{
     outline: none;
+}
+.content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing:2.2px;
+    line-height:35px;
+    padding-left:20px;
+    margin-left:20px;
+    overflow: hidden;
+}
+h2{
+    margin-bottom:5px;
+}
+ul{
+    margin-top:0;
 }
